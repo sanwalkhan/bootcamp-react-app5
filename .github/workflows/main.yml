@@ -33,8 +33,7 @@ jobs:
           
       - name: npm/yarn/pnpm install
         uses: Jaid/action-npm-install@v1.2.4
-        with:
-          cmd : install 
+         
           
       - name: install build
         run : yarn build 
